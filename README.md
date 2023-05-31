@@ -1,4 +1,3 @@
-
 # Michele Sandhu's INF6420 Project
 
 A blog filled with short stories and real life annecdotes.
@@ -13,7 +12,7 @@ Navigation Menu - this will include links to other pages such as contact and abo
 
 Main Content - this will feature the most recent blog entries as well as the most popular and current trending ones
 
-Footer - this will include copyright information 
+Footer - this will include copyright information
 
 ![Wireframe of About Page](wireframes/aboutpage.jpg)
 
