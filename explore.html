@@ -16,17 +16,26 @@
         </div>
       </header>               
     <main>
-      <div class="ask-a-question">
-        <div class="blurb-section-explore">
-          <p>Ask Advice:</p>
+      <form action="https://formspree.io/f/xdorolrg" method="POST" class="validate">
+        <div>
+          <label for="name">name</label>
+          <input id="name" type="text" name="name" class="form-input">
+        </div>   
+
+        <div>
+          <label for="email">email</label>
+          <input id="email" type="email" name="_replyto" class="form-input" required>
         </div>
-        <div class="inquiry-section">
-          <textarea rows="200"></textarea>
-        </div>
-        <div class="submit-section">
-          <button>Submit</button>
-        </div>
-      </div>         
+
+        <div> 
+          <label for="message">message</label>
+          <textarea id="message" name="message" class="form-input" rows="4" required></textarea>
+</div>
+
+<div>
+  <input type="submit" value="send">
+</div>
+</form>
     </main>
     <footer>
         <footer class="footer">
@@ -38,4 +47,5 @@
             </ul>
           </footer>
 </body>
+<script src="script.js"></script>
 </html>
